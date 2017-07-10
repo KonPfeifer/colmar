@@ -8,8 +8,74 @@
     display: block;
   }
 
+  li {
+    display: inline;
+  }
+
   .mobile {
     display: none;
   }
+}
 
+/* header section */
+
+header {
+  display: flex
+}
+
+#icons {
+  display: flex;
+}
+
+#headerContent {
+  display: flex;
+}
+
+#logoBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* banner section */
+#banner {
+  display: flex;
+  background-color: grey;
+  position: relative;
+  padding: 32px 0 32px 24px;
+}
+
+#banner img {
+  width: 60%;
+  margin-right: 40px;
+}
+
+#bannerContent {
+  text-align: center;
+}
+
+.button {
+  padding: 8px 0;
+  background-color: darkgrey;
+}
+
+/* info section */
+
+#info {
+  display: flex;
+}
+
+.infoBoxContent {
+  display: flex;
+}
+
+/* learning section */
+
+#learningBox {
+  display: flex;
+}
+
+/* thesis section */
+
+#thesisContent {
+  display: flex;
 }
