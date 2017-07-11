@@ -129,10 +129,13 @@ header {
     height: 180px;
     margin-bottom: 32px;
   }
+
   #banner {
     display: inline-block;
     height: auto;
+    text-align: center;
   }
+
 }
 
 /* info section */
@@ -190,15 +193,18 @@ header {
     display: inline-block;
     margin: 16px;
     width: auto;
+    text-align: center;
   }
 
   .infoBoxContent img {
-    width: auto;
+    width: 100%;
+    margin-bottom: 16px;
   }
 
   .boxText {
     padding: 16px;
     margin-bottom: 16px;
+    text-align: left;
   }
 
   #smallInfoBox {
@@ -250,7 +256,7 @@ header {
     align-items: center;
 }
   #courseBox .courseElement {
-    display: inline-block;
+    display: block;
     text-align: left;
     padding: 16px 0 16px 16px;
     margin-top: 8px;
@@ -308,13 +314,19 @@ header {
   margin-left: 16px;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   #thesisBox {
     padding: 32px 0 24px 0;
   }
 
+  .thesisBoxContent {
+    width: 100%;
+    height: auto;
+  }
+
   #thesisBox Video {
     width: 100%;
+    height: auto;
   }
 }
 
