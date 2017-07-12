@@ -152,7 +152,7 @@ header {
   }
 
   #bannerContent {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0;
     padding: 0 16px 32px 16px;
@@ -171,7 +171,7 @@ header {
   }
 
   #bannerContent .button {
-    width: 100%;
+    width: 90%;
     display: block;
     margin-right: 24px;
   }
@@ -200,7 +200,7 @@ header {
   margin-bottom: 24px;
   font-size: 32px;
   font-weight: bold;
-  color:
+  color: #404040;
 }
 
 #emanuel {
@@ -282,6 +282,7 @@ header {
   font-weight: bold;
   text-align: center;
   margin-bottom: 32px;
+  color: #404040;
 }
 
 #learningContent {
@@ -303,19 +304,24 @@ header {
 }
 
 .boxOne img {
-  margin-bottom: 0 !important;
+  margin-bottom: 1rem !important;
 }
 
 /*.learningImageText {
   height: 220px;
 }*/
 
-.learningImageText h5 {
-  margin-top: 16px;
+.learningBox h5 {
+  color: #404040;
+}
+
+.learningBox p {
+  color: #999999;
 }
 
 .courses {
   padding: 8px 0;
+  color: #999999;
 }
 
 @media only screen and (max-width: 760px) {
@@ -352,12 +358,19 @@ header {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
+  color: #404040;
 }
 
 #thesisContent {
   display: flex;
   padding-left: 24px;
   align-items: center;
+}
+
+#thesisContent h5 {
+  font-size: 1.5rem;
+  color: #404040;
+  font-weight: bold;
 }
 
 #thesisVideo video {
@@ -376,6 +389,11 @@ header {
   font-size: 1.5rem;
   margin-bottom: 32px;
   font-weight: bold;
+  color: #404040;
+}
+
+.thesisBoxContent p {
+  color: #999999;
 }
 
 .thesisBoxContent img {
