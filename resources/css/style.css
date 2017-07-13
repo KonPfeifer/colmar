@@ -37,6 +37,7 @@ header {
   z-index: 20;
   width: 100%;
   background-color: white;
+  box-shadow: 2px 2px 1px #d9d9d9;
 }
 
 #icons {
@@ -71,6 +72,11 @@ header {
 #headerContent li {
   display: inline;
   margin-right: 16px;
+  transition: color 0.4s ease 0.1s;
+}
+
+#headerContent li:hover {
+  color: #ff6666;
 }
 
 @media only screen and (max-width: 760px) {
@@ -130,6 +136,7 @@ header {
   text-align: center;
   width: 80%;
   color: white;
+  transition: background-color 0.4s ease 0.1s;
 }
 
 .button:hover {
@@ -138,10 +145,13 @@ header {
 
 @media only screen and (max-width: 760px) {
   #banner img {
-    height: 180px;
+    min-height: 180px;
+    height: 360px;
     width: auto;
     margin: 0 0 32px 0;
     padding: 0;
+    position: relative;
+    right: 24px;
   }
 
   #banner {
@@ -224,6 +234,11 @@ header {
   padding: 16px 0 16px 16px;
   margin-bottom: 0.5rem;
   background-color: #f1f3f3;
+  transition: background-color 0.4s ease 0.1s;
+}
+
+.infoBoxContent:hover {
+  background-color: #cccccc;
 }
 
 .infoBoxContent img {
@@ -270,6 +285,7 @@ header {
 
   #smallInfoBox {
     padding: 16px 0 32px 0;
+    margin-left: 40px;
   }
 
 }
@@ -336,9 +352,19 @@ header {
 }
   #courseBox .courseElement {
     display: block;
+    width: 50%;
     text-align: left;
     padding: 16px 0 16px 16px;
-    margin-top: 8px;
+    margin: 16px 0 8px 0;
+    background-color: #f1f3f3;
+    transition: background-color 0.4s ease 0.1s
+    transition:
+    color 0.4s ease 0.1s
+  }
+
+  #courseBox .courseElement:hover {
+    background-color: #cccccc;
+    color: #4d4d4d;
   }
 
   #learning h3 {
@@ -387,6 +413,11 @@ header {
   display: flex;
   align-items: center;
   height: 168px;
+  transition: background-color 0.4s ease 0.1s;
+}
+
+.thesisBoxContent:hover {
+  background-color: #cccccc;
 }
 
 .thesisBoxContent h5 {
